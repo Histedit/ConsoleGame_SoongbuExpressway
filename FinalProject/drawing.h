@@ -10,8 +10,8 @@
 
 using namespace std;
 
-void _gotoxy(int x, int y);
-void _gotoxy(int* x, int* y);
+void _gotoxy(int x, int y); // x,y
+void _gotoxy(int* x, int* y); // pointer x,y
 inline void changeCursorPosition(int* poz_x, int* poz_y, bool upDown) {
 	cout << ' ';
 	_gotoxy(poz_x, poz_y);

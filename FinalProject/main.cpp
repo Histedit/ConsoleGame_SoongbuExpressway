@@ -7,7 +7,6 @@
 #include <cstdlib>
 #include "drawing.h"
 #include "console.h"
-#include "main.h"
 #include <thread>
 
 using namespace std;
